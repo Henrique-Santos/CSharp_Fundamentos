@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-
-using CSharp.Fundamentos;
-using CSharp.EstruturasDeControle;
-using CSharp.ClassesEMetodos;
+﻿using CSharp.ClassesEMetodos;
 using CSharp.Colecoes;
+using CSharp.EstruturasDeControle;
+using CSharp.Fundamentos;
+using System;
+using System.Collections.Generic;
 
 namespace CursoCSharp {
     class Program {
@@ -50,7 +49,8 @@ namespace CursoCSharp {
 
                 //Coleções
                 {"Array - Coleções", CSharp.Colecoes.Array.Executar},
-            });
+                {"Coleções List - Coleções", ColecoesList.Executar},
+            }); ;
 
             central.SelecionarEExecutar();
         }
