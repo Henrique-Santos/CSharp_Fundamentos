@@ -2,6 +2,8 @@
 using CSharp.Colecoes;
 using CSharp.EstruturasDeControle;
 using CSharp.Fundamentos;
+using CSharp.OO;
+
 using System;
 using System.Collections.Generic;
 
@@ -49,7 +51,16 @@ namespace CursoCSharp {
 
                 //Coleções
                 {"Array - Coleções", CSharp.Colecoes.Array.Executar},
-                {"Coleções List - Coleções", ColecoesList.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"Array List - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecoesStack.Executar},
+                {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                //OO
+                {"Heranca - OO", Heranca.Executar},
             }); ;
 
             central.SelecionarEExecutar();
