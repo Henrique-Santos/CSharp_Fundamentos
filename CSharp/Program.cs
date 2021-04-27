@@ -3,6 +3,7 @@ using CSharp.Colecoes;
 using CSharp.EstruturasDeControle;
 using CSharp.Fundamentos;
 using CSharp.OO;
+using CSharp.MetodosEFuncoes;
 
 using System;
 using System.Collections.Generic;
@@ -67,6 +68,10 @@ namespace CursoCSharp {
                 {"Abstract - OO", Abstract.Executar},
                 {"Interface - OO", Interface.Executar},
                 {"Sealed - OO", Sealed.Executar},
+
+                //Metodos e Funcoes
+                {"Lambda - Metodos e Funções", Sealed.Executar},
+
             }); ;
 
             central.SelecionarEExecutar();
