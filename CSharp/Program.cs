@@ -4,6 +4,8 @@ using CSharp.EstruturasDeControle;
 using CSharp.Fundamentos;
 using CSharp.OO;
 using CSharp.MetodosEFuncoes;
+using CSharp.Excecoes;
+using CSharp.API;
 
 using System;
 using System.Collections.Generic;
@@ -71,6 +73,22 @@ namespace CursoCSharp {
 
                 //Metodos e Funcoes
                 {"Lambda - Metodos e Funções", Sealed.Executar},
+                {"Lambda Delegate - Metodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegate - Metodos e Funções", UsandoDelegate.Executar},
+                {"Delegate Func Anonima - Metodos e Funções", DelegateFunAnonima.Executar},
+                {"Delegate Como Parametros - Metodos e Funções", DelegatesComoParametros.Executar},
+                {"Métodos de Extensão - Metodos e Funções", MetodosDeExtensao.Executar},
+
+                //Exceções
+                {"Exceções - Exceções", PrimeiraExcecao.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                //API
+                {"Primeiro Arquivo - API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - API", LendoArquivos.Executar},
+                {"File Info - API", ExemploFileInfo.Executar},
+                {"Diretorios - API", Diretorios.Executar},
+                {"Directory Info - API", ExemploDirectoryInfo.Executar},
 
             }); ;
 
