@@ -6,6 +6,7 @@ using CSharp.OO;
 using CSharp.MetodosEFuncoes;
 using CSharp.Excecoes;
 using CSharp.API;
+using CSharp.TopicosAvancados;
 
 using System;
 using System.Collections.Generic;
@@ -89,6 +90,16 @@ namespace CursoCSharp {
                 {"File Info - API", ExemploFileInfo.Executar},
                 {"Diretorios - API", Diretorios.Executar},
                 {"Directory Info - API", ExemploDirectoryInfo.Executar},
+                {"Path - API", ExemploPath.Executar},
+                {"Date Time - API", ExemploDateTime.Executar},
+                {"Time Span - API", ExemploTimeSpan.Executar},
+
+                //Topicos Avançados
+                {"LINQ1 - Topicos Avaçados", LINQ1.Executar},
+                {"LINQ2 - Topicos Avaçados", LINQ2.Executar},
+                {"Nullables - Topicos Avaçados", Nullables.Executar},
+                {"Dynamic - Topicos Avaçados", Dynamics.Executar},
+                {"Genericos - Topicos Avaçados", Genericos.Executar},
 
             }); ;
 

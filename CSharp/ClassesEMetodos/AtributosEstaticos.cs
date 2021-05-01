@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharp.ClassesEMetodos {
     
-    class Produtos{
+    class Produtos {
         public string Nome;
         public double Preco;
         public static double Desconto = 0.1;
